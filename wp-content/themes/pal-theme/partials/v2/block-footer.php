@@ -2,12 +2,12 @@
   <div class="container">
     <h2>Sourced Media Links</h2>
     <ul>
-      <li><img src="<?php echo IMG; ?>/fox-dark.png" alt=""></li>
-      <li><img src="<?php echo IMG; ?>/bloomberg-dark.png" alt=""></li>
-      <li><img src="<?php echo IMG; ?>/forbes-dark.png" alt=""></li>
-      <li><img src="<?php echo IMG; ?>/cnnmoney.png" alt=""></li>
-      <li><img src="<?php echo IMG; ?>/inc.png" alt=""></li>
-      <li><img src="<?php echo IMG; ?>/business_insider_dark.png" alt=""></li>
+      <li><a href="http://video.foxbusiness.com/v/3034387934001/?#sp=show-clips" target="_blank" rel="nofollow"><img src="<?php echo IMG; ?>/fox-dark.png" alt=""></a></li>
+      <li><a href="https://www.bloomberg.com/news/articles/2015-03-18/penny-stock-guru-tim-sykes-embraces-role-of-rich-douche-bag-" target="_blank" rel="nofollow"><img src="<?php echo IMG; ?>/bloomberg-dark.png" alt=""></a></li>
+      <li><a href="https://www.forbes.com/sites/elainepofeldt/2014/11/28/how-tim-sykes-created-his-multi-million-dollar-blog/#56e25dd84908" target="_blank" rel="nofollow"><img src="<?php echo IMG; ?>/forbes-dark.png" alt=""></a></li>
+      <li><a href="http://money.cnn.com/2013/12/16/investing/penny-stock-trader-millionaire/index.html" target="_blank" rel="nofollow"><img src="<?php echo IMG; ?>/cnnmoney.png" alt=""></a></li>
+      <li><a href="https://www.inc.com/john-rampton/interview-with-timothy-sykes-the-man-who-wants-everyone-to-be-a-millionaire.html" target="_blank" rel="nofollow"><img src="<?php echo IMG; ?>/inc.png" alt=""></a></li>
+      <li><a href="http://www.businessinsider.com/timothy-sykes-profitly-penny-stocks-instagram" target="_blank" rel="nofollow"><img src="<?php echo IMG; ?>/business_insider_dark.png" alt=""></a></li>
     </ul>
     <p>DISCLAIMER: Before you proceed with the course, make sure you read and understand the following disclaimer.</p>
     <p>This manual is for informational and entertainment purposes only. The author is not an investment adviser, financial adviser, or broker, and the material contained herein is not intended as investment advice. If you wish to obtain personalized investment advice, you should consult with a Certified Financial Planner (CFP). All statements made in this manual are based on the author’s own opinion. Neither the author or the publisher warrants or assume any responsibility for the accuracy of the statements or information contained in this manual, and specifically disclaims the accuracy of any data, including stock prices and stock performance histories. No mention of a particular security or instrument herein constitutes a recommendation to buy or sell that or any security or instrument, nor does it mean that any particular security, instrument, portfolio of securities, transaction or investment strategy is suitable for any specific individual. Neither the author or the publisher can assess, verify, or guarantee the accuracy, adequacy, or completeness of any information, the suitability or profitability of any particular investment or methodology, or the potential value of any investment or informational source. READERS BEAR THE SOLE RESPONSIBILITY FOR THEIR OWN INVESTMENT DECISIONS. NEITHER THE AUTHOR OR THE PUBLISHER IS RESPONSIBLE FOR ANY LOSSES DUE TO INVESTMENT DECISIONS MADE BASED ON INFORMATION PROVIDED HEREIN. At the time of writing, neither the author or the publisher has a position in any of the stocks mentioned in this manual.</p>
