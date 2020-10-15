@@ -1,0 +1,15 @@
+main {
+  padding: 40px 0;
+
+  @media ($md) {
+    padding: 80px 0;
+  }
+
+  p {
+    margin-bottom: 20px;
+
+    @media ($md) {
+      font-size: 24px;
+    }
+  }
+}

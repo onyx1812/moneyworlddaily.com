@@ -1,0 +1,10 @@
+@import 'base/all';
+@import 'partials/header';
+@import 'partials/footer';
+
+a{
+  color: #00af78;
+  &:hover{
+    text-decoration: none;
+  }
+}

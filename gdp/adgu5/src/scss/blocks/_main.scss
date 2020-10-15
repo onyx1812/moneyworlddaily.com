@@ -1,0 +1,25 @@
+main {
+  padding: 40px 0;
+
+  .col {
+    background: $whiteColor;
+    border-radius: 10px;
+    padding: 20px;
+
+    @media ($md) {
+      padding: 60px 40px;
+    }
+  }
+
+  @media ($md) {
+    padding: 80px 0;
+  }
+
+  p {
+    margin-bottom: 20px;
+
+    @media ($md) {
+      font-size: 24px;
+    }
+  }
+}

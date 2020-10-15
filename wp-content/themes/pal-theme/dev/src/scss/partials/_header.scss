@@ -1,0 +1,21 @@
+.subhead{
+  background: #1e1e1e;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px 0;
+  @media(min-width:992px){
+    font-size: 14px;
+  }
+}
+header{
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+  background: url('../img/header-bg.jpg') no-repeat center center/cover;
+  @media(min-width:992px){
+    padding: 20px 0 50px;
+  }
+  img{
+    width: 220px;
+  }
+}

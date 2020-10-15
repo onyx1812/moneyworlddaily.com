@@ -1,0 +1,15 @@
+.sticky {
+  height: 150vh;
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.js-sticky {
+  background: $whiteColor;
+  padding: 20px;
+  border-radius: 6px;
+  margin-left: auto;
+}

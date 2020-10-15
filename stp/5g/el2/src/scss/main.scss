@@ -1,0 +1,14 @@
+@import 'variables/vars';
+@import './adjustements';
+
+@import './blocks/header';
+@import './blocks/main';
+@import './blocks/footer';
+
+.pre-header {
+  background: #000;
+  text-align: center;
+  color: $whiteColor;
+  padding: 5px 0;
+  font-size: 14px;
+}

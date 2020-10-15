@@ -1,0 +1,15 @@
+footer{
+  background: #c4c5c9;
+  color: #646464;
+  padding: 15px 0;
+  font-family: 'Objektiv-mk3', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  a{
+    color: #00af78;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}

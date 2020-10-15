@@ -1,0 +1,51 @@
+header {
+  background-size: cover;
+  color: $headerC;
+  padding: 20px 0;
+  text-shadow: 0px 0px 5px #000;
+
+  @media ($md) {
+    padding: 40px 0;
+  }
+
+  h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: $whiteColor;
+
+    @media ($md) {
+      font-size: 64px;
+    }
+  }
+
+  p {
+    text-align: center;
+    color: $whiteColor;
+
+    @media ($md) {
+      font-size: 30px;
+    }
+  }
+}
+
+.header-title {
+  background: #000;
+  color: $whiteColor;
+  padding: 10px 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+}
+
+.header-descr {
+  background: url('../img/RDL_LAZY_CTP.png') center center;
+  background-size: cover;
+  background-attachment: fixed !important;
+  padding: 40px 0;
+  align-items: center;
+
+  @media ($md) {
+    padding: 80px 0;
+  }
+}

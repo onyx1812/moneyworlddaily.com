@@ -1,0 +1,32 @@
+@import './variables/vars';
+
+@import './adjustements';
+@import './blocks/header';
+@import './blocks/main';
+@import './blocks/footer';
+
+.sponsored {
+  padding: 10px 0;
+  background: $redBg;
+  color: $whiteColor;
+
+  h3 {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+.w70 {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.tac {
+  text-align: center;
+  display: block;
+
+  @media ($md) {
+    font-size: 24px;
+  }
+}

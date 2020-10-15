@@ -1,0 +1,65 @@
+@import './variables/vars';
+@import './adjustements';
+
+// Blocks
+@import './blocks/header';
+@import './blocks/main';
+@import './blocks/footer';
+
+// Helpers
+@import './mobileNav/mobileNav';
+@import './tabs/tabs';
+@import './accoridon/accrodion';
+@import './modal/modal';
+@import './sticky/sticky';
+
+.title {
+    text-align: center;
+}
+
+section {
+    padding: 20px 0;
+
+    @media ($lg) {
+        padding: 40px 0;
+    }
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-gap: 20px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.grid {
+    background: pink;
+    padding: 40px;
+    text-align: center;
+}
+
+.w50 {
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    @media ($sm) {
+        width: 50%;
+    }
+}
+
+.c-title {
+    color: $titleColor;
+}

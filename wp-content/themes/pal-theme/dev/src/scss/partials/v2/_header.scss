@@ -1,0 +1,17 @@
+.subhead{
+  background: #1e1e1e;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px 0;
+  @media(min-width:992px){
+    font-size: 14px;
+  }
+}
+header{
+  background: #f4f4f4;
+  padding: 15px 0;
+  img{
+    width: 250px;
+  }
+}

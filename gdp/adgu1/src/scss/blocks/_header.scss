@@ -1,0 +1,27 @@
+header {
+  background: url('../img/banner.jpg') center center no-repeat;
+  background-size: cover;
+  color: $whiteColor;
+  padding: 40px 0;
+  text-align: center;
+
+  @media ($md) {
+    padding: 80px 0;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+
+    @media ($md) {
+      font-size: 64px;
+    }
+  }
+
+  p {
+    @media ($md) {
+      font-size: 30px;
+    }
+  }
+
+}

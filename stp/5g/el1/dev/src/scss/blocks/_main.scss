@@ -1,0 +1,28 @@
+main {
+  padding: 20px 0;
+
+  p {
+    color: $whiteColor;
+    margin-bottom: 20px;
+
+    @media ($sm) {
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
+
+  a {
+    margin-bottom: 20px;
+
+    @media ($sm) {
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.d-block {
+  display: block;
+}

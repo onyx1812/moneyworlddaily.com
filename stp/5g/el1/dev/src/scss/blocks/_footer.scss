@@ -1,0 +1,20 @@
+footer {
+    position: relative;
+    color: $whiteColor;
+    padding: 20px 0;
+
+    img {
+        float: left;
+        width: 60px;
+        margin-right: 16px;
+    }
+
+    p {
+        font-size: 12px;
+
+        @media ($sm) {
+            font-size: 14px;
+        }
+    }
+
+}
