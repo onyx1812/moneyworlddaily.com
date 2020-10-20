@@ -13,7 +13,7 @@
       <link rel="shortcut icon" type="image/x-icon" href="<?php echo IMG; ?>/favicon.ico" />
       <title><?php echo get_bloginfo('name'); ?></title>
     <?php elseif( is_page_template( 'templates/page-v2.php' ) ): ?>
-      <link rel="shortcut icon" type="image/png" href="<?php echo IMG; ?>/favicon-v2.png" />
+      <link rel="shortcut icon" type="image/png" href="<?php echo IMG; ?>/favicon-v2.png?v=1.00" />
       <title>MoneyWorldDaily - News & Insights</title>
     <?php else: ?>
       <link rel="shortcut icon" type="image/x-icon" href="<?php echo IMG; ?>/favicon.ico" />
