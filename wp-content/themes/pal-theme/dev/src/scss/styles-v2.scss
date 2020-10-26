@@ -36,3 +36,79 @@ a{
     }
   }
 }
+
+.main-title {
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+.linked {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.img-group {
+    width: 50%;
+    max-width: 400px;
+    min-width: 150px;
+}
+.img-group.f-l {
+    margin: 0 2em 0.5em 0;
+    float: left;
+}
+.img-group.f-r {
+    margin: 0 0 0.5em 2em;
+    float: right;
+}
+.img-group.w-100 {
+    margin: 0 2em 1em 0;
+    width: 100%;
+}
+.img-group img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.image-group-2 {
+    margin: 1em auto;
+    text-align: center;
+}
+.image-group-2 img {
+    max-width: 100%;
+    margin: 0;
+}
+.cta-text {
+    font-size: 1.75em;
+    font-weight: 700;
+    text-align: center;
+}
+.clear-fix {
+    clear: both;
+}
+h1.custom-1 {
+    text-transform: none;
+    font-weight: 700;
+}
+h2.custom-1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 1em 0;
+    text-align: center;
+    text-transform: none;
+}
+h2.custom-2 {
+    font-weight: 700;
+    margin: 1em 0;
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+@media (max-width: 576px) {
+    .img-group {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+
+
+
