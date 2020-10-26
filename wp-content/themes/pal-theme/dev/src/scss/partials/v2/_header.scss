@@ -13,5 +13,8 @@ header{
   padding: 15px 0;
   img{
     width: 250px;
+    @media(min-width:768px){
+      width: 350px;
+    }
   }
 }
