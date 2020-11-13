@@ -47,6 +47,16 @@ footer{
     @media(min-width:768px){
       line-height: 21px;
       font-size: 14px;
+
+    }
+    @media(min-width:576px){
+      display: flex;
+      flex-direction: column;
+      .main-footer__nav-wrap {
+        margin: 1em 0;
+        color: transparent;
+        order: -1;
+      }
     }
     a{
       color: #fff;
