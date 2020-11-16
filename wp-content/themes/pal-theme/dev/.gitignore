@@ -1,6 +1,9 @@
 node_modules/
 cache/
 cache/*
+.idea/
+.idea/*
 *.zip
 *.psd
 *.rar
+yarn.lock

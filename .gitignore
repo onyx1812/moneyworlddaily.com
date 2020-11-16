@@ -15,3 +15,5 @@ wp-config.php
 *.sql
 *.sqlite
 *.zip
+
+**/.idea
