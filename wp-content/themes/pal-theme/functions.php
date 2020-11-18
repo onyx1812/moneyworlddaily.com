@@ -22,3 +22,38 @@ function front_scripts() {
   }
 }
 add_action( 'wp_enqueue_scripts', 'front_scripts' );
+
+
+// Send email with AJAX req
+function ajax_form(){
+    $first_name = $_REQUEST['first-name'];
+    $last_name = $_REQUEST['last-name'];
+    $email = $_REQUEST['email-input'];
+    $message = $_REQUEST['textarea-input'];
+    $response = '';
+    $thm  = 'New contact';
+    $thm  = "=?utf-8?b?". base64_encode($thm) ."?=";
+    $msg = "First Name: ".$first_name."<br/>
+        Last Name: ".$last_name ."<br/>
+        Email: ".$email ."<br/>
+        Message: ".$message ."<br/>";
+    $mail_to = 'nickryz@purpleleads.com';
+    $headers = "Content-Type: text/html; charset=utf-8\n";
+    $headers .= 'From: WP' . "\r\n";
+
+// sending an email
+
+    if(mail($mail_to, $thm, $msg, $headers)){
+        $response = 'Message sent';
+    } else {
+        $response = 'Message did not send';
+    };
+
+    if(defined('DOING_AJAX') && DOING_AJAX ){
+        echo $response;
+        wp_die();
+    }
+}
+
+add_action('wp_ajax_nopriv_ajax_order', 'ajax_form' );
+add_action('wp_ajax_ajax_order', 'ajax_form' );
