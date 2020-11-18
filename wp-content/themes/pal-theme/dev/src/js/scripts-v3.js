@@ -27,7 +27,7 @@ for (let i = 0; i < openPopup.length; i++) {
       popupContentBox = document.getElementById('popupContentBox');
     popupContentBox.innerHTML = popupContent;
     document.body.classList.add('popup-active');
-    let form = document.querySelector('.popup form');
+    let form = document.querySelector('form');
     console.log(form, formHandler)
     if(form) {
       form.addEventListener('submit', formHandler);
