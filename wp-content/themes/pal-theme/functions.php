@@ -16,6 +16,9 @@ function front_scripts() {
   } else if( is_page_template( 'templates/page-v2.php' ) ) {
     wp_enqueue_style( 'styles', get_template_directory_uri().'/css/styles-v2.css');
     wp_enqueue_script( 'scripts', ROOT . '/js/scripts-v2.js', false, false, 'in_footer');
+  } else if( is_page_template( 'templates/page-v3.php' ) ) {
+    wp_enqueue_style( 'styles', get_template_directory_uri().'/css/styles-v3.css');
+    wp_enqueue_script( 'scripts', ROOT . '/js/scripts-v3.js', false, false, 'in_footer');
   }
 }
 add_action( 'wp_enqueue_scripts', 'front_scripts' );

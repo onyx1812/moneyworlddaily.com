@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Version 2
+ * Template Name: Version 3
  */
 get_header();
   while ( have_posts() ) : the_post();
