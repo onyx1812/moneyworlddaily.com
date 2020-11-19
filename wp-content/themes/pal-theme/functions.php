@@ -43,7 +43,7 @@ function ajax_form(){
 
 // sending an email
 
-    if(mail($mail_to, $thm, $msg, $headers)){
+    if(wp_mail($mail_to, $thm, $msg, $headers)){
         $response = 'Message sent';
     } else {
         $response = 'Message did not send';
