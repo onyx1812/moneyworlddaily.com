@@ -35,7 +35,7 @@ function ajax_form(){
         Last Name: ".$last_name ."<br/>
         Email: ".$email ."<br/>
         Message: ".$message ."<br/>";
-    $mail_to = 'nickryzkov@ukr.net';
+    $mail_to = 'cs@moneyworlddaily.com';
     $headers = array('Content-Type: text/html; charset=UTF-8');
 
 
