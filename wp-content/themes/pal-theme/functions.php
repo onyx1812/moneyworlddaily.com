@@ -30,16 +30,14 @@ function ajax_form(){
     $last_name = $_REQUEST['last-name'];
     $email = $_REQUEST['email-input'];
     $message = $_REQUEST['textarea-input'];
-    $response = '';
     $thm  = 'New contact';
-    $thm  = "=?utf-8?b?". base64_encode($thm) ."?=";
     $msg = "First Name: ".$first_name."<br/>
         Last Name: ".$last_name ."<br/>
         Email: ".$email ."<br/>
         Message: ".$message ."<br/>";
-    $mail_to = 'nickryz@purpleleads.com';
-    $headers = "Content-Type: text/html; charset=utf-8\n";
-    $headers .= 'From: WP' . "\r\n";
+    $mail_to = 'nickryzkov@ukr.net';
+    $headers = array('Content-Type: text/html; charset=UTF-8');
+
 
 // sending an email
 
