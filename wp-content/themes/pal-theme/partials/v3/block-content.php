@@ -5,7 +5,7 @@
 </section>
 <script>
 const queryString = window.location.search,
-  track = `https://sasktracker.com/click${queryString}`,
+  track = `https://savingsscanner.org/click${queryString}`,
   links = document.querySelectorAll('.content a[href]');
 links.forEach(link => {
   link.addEventListener('click', e => {
