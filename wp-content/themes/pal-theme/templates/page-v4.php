@@ -108,6 +108,7 @@ get_header();
 </section>
 
 <?php get_template_part( 'partials/v4/block', 'footer' ); ?>
+<?php get_template_part( 'partials/v4/block', 'popup' ); ?>
 
 <script>
 const
