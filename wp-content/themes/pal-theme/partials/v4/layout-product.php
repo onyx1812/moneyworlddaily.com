@@ -49,5 +49,5 @@
       <div class="subtext"><?php echo get_sub_field('subtext'); ?></div>
     </div>
   </div>
-<link rel="stylesheet" href="<?php CSS(); ?>/v4/v1/layout-product.css">
 </section>
+<link rel="stylesheet" href="<?php CSS(); ?>/v4/v1/layout-product.css">
