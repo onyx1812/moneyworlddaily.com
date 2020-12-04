@@ -24,4 +24,4 @@
 	  "><?php echo get_sub_field('sticky_btn_txt'); ?></div>
   </a>
 </div>
-<link rel="stylesheet" href="<?php CSS(); ?>v4/v1/layout-sticky.css">
+<link rel="stylesheet" href="<?php CSS(); ?>/v4/v1/layout-sticky.css">

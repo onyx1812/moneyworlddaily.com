@@ -19,5 +19,5 @@
   <?php endwhile; ?>
   </div>
 </section>
-<link rel="stylesheet" href="<?php CSS(); ?>v4/v1/layout-testimonials.css">
+<link rel="stylesheet" href="<?php CSS(); ?>/v4/v1/layout-testimonials.css">
 <?php endif; ?>

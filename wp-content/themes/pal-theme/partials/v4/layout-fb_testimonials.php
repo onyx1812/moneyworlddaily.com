@@ -39,4 +39,4 @@
     <?php endwhile; ?>
   <?php endif; ?>
 </div>
-<link rel="stylesheet" href="<?php CSS(); ?>v4/v1/layout-fb_testimonials.css">
+<link rel="stylesheet" href="<?php CSS(); ?>/v4/v1/layout-fb_testimonials.css">

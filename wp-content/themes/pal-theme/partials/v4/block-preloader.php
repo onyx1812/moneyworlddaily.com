@@ -9,7 +9,7 @@
     <progress max="75" value="0" id="preloaderProgress"></progress>
   </div>
 </div>
-<link rel="stylesheet" href="<?php CSS(); ?>v4/v1/layout-preloader.css">
+<link rel="stylesheet" href="<?php CSS(); ?>/v4/v1/layout-preloader.css">
 <style>
   .preloader progress[value]::-webkit-progress-value {
     background: <?php the_field('preloader_color'); ?> !important;

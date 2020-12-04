@@ -50,4 +50,4 @@
     </div>
   </div>
 </section>
-<link rel="stylesheet" href="<?php CSS(); ?>v4/v1/layout-product.css">
+<link rel="stylesheet" href="<?php CSS(); ?>/v4/v1/layout-product.css">

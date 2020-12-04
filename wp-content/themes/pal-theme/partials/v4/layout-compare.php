@@ -24,4 +24,4 @@
     </tbody>
   </table>
 </section>
-<link rel="stylesheet" href="<?php CSS(); ?>v4/v1/layout-compare.css">
+<link rel="stylesheet" href="<?php CSS(); ?>/v4/v1/layout-compare.css">
