@@ -29,4 +29,5 @@
   </a>
 <?php endif; ?>
 </section>
-<link rel="stylesheet" href="<?php CSS(); ?>/v4/v1/layout-benefits.css">
+
+ wp_enqueue_style( 'styles', get_template_directory_uri().'/css/v4/v1/layout-benefits.css');
