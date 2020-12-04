@@ -27,6 +27,11 @@ function front_scripts() {
 add_action( 'wp_enqueue_scripts', 'front_scripts' );
 
 
+function CSS(){
+  echo ROOT . '/css';
+}
+
+
 // Send email with AJAX req
 function ajax_form(){
     $first_name = $_REQUEST['first-name'];

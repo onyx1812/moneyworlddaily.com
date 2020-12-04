@@ -29,4 +29,4 @@
   </a>
 <?php endif; ?>
 </section>
-<link rel="stylesheet" href="<?php CSS(); ?>/v4/layout-benefits.css">
+<link rel="stylesheet" href="<?php CSS(); ?>/v4/v1/layout-benefits.css">
