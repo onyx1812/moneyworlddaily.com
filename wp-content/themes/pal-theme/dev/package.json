@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.13",
-    "gulp": "^4.0.2",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean": "^0.4.0",
     "gulp-htmlmin": "^5.0.1",
@@ -19,7 +19,9 @@
     "gulp-sass": "^4.0.2"
   },
   "dependencies": {
+    "graceful-fs": "^3.0.12",
     "gulp-minify": "^3.1.0",
-    "imagemin-pngquant": "^7.0.0"
+    "imagemin-pngquant": "^7.0.0",
+    "node": "^8.10.0"
   }
 }
