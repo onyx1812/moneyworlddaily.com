@@ -1,12 +1,10 @@
 <?php
 /*
- * Template Name: Version 4
+ * Template Name: Version 1
  */
 get_header();
   while ( have_posts() ) : the_post();
 ?>
-
-<?php get_template_part( 'partials/v4/mg', 'analitics' ); ?>
 
 <?php get_template_part( 'partials/v4/block', 'header' ); ?>
 
@@ -108,6 +106,7 @@ get_header();
       </div>
   </div>
 </section>
+
 <?php get_template_part( 'partials/v4/block', 'footer' ); ?>
 
 <script>
