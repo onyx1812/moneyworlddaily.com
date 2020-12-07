@@ -1,4 +1,4 @@
-//@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 @import 'v4/base/all';
 @import 'partials/v2/header';
 @import 'partials/v2/footer';
@@ -6,6 +6,11 @@
 @import 'partials/contact-form';
 @import 'v4/partials/comment';
 
+.sidebar {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
 .subhead {
   background: #112f53;
 }
