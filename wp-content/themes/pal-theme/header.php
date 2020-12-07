@@ -32,5 +32,23 @@
       document.documentElement.style.setProperty('--vh', `${vh}px`);
     </script>
     <?php wp_head(); ?>
+
+    <?php
+      if( get_field('header_scripts') ):
+        the_field('header_scripts');
+      endif;
+    ?>
+    <?php if( get_field('fonts') ): ?>
+      <?php if( get_field('fonts') === 'BrandonText' ): ?>
+        <link rel="stylesheet" href="https://betterlyfetech.com/fonts/BrandonText/brandon-text.min.css">
+        <style>html,body{font-family:'BrandonText'}</style>
+      <?php elseif( get_field('fonts') === 'Lato' ): ?>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <style>body{font-family: 'Lato', sans-serif;}</style>
+      <?php elseif( get_field('fonts') === 'Montserrat' ): ?>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+        <style>body{ font-family: 'Montserrat', sans-serif; }</style>
+      <?php endif; ?>
+    <?php endif; ?>
   </head>
   <body <?php body_class(); ?> >
